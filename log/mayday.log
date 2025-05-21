@@ -1,0 +1,68 @@
+2025-05-20 17:18:31,950 | mayday | DEBUG    | Debug message
+2025-05-20 17:18:31,952 | mayday | INFO     | Info message
+2025-05-20 17:18:31,955 | mayday | WARNING  | Warning message
+2025-05-20 17:18:31,956 | mayday | ERROR    | Error message
+2025-05-20 17:18:31,957 | mayday | ERROR    | Exception occurred
+Traceback (most recent call last):
+  File "D:\MaydayAutoProject\test\testLog.py", line 10, in test_log_output
+    1 / 0
+ZeroDivisionError: division by zero
+2025-05-20 17:19:03,523 | mayday | DEBUG    | Debug message
+2025-05-20 17:19:03,526 | mayday | INFO     | Info message
+2025-05-20 17:19:03,527 | mayday | WARNING  | Warning message
+2025-05-20 17:19:03,527 | mayday | ERROR    | Error message
+2025-05-20 17:19:03,528 | mayday | ERROR    | Exception occurred
+Traceback (most recent call last):
+  File "D:\MaydayAutoProject\test\testLog.py", line 10, in test_log_output
+    1 / 0
+ZeroDivisionError: division by zero
+2025-05-20 17:19:57,628 | mayday | INFO     | �������
+2025-05-20 17:20:00,819 | mayday | INFO     | login account and passwd
+2025-05-20 17:20:01,333 | mayday | INFO     | �������
+2025-05-20 17:20:04,297 | mayday | INFO     | ���д����
+2025-05-20 17:20:11,082 | mayday | INFO     | д����
+2025-05-20 17:20:11,505 | mayday | INFO     | д����
+2025-05-20 17:20:11,834 | mayday | INFO     | ����
+2025-05-20 17:20:11,994 | mayday | INFO     | ������������б�
+[2025-05-20 22:24:09] ERROR    [driverUntil.py:102] 浏览器启动失败: [WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\MaydayAutoProject\\driverFile\\chromedriver.exe'
+[2025-05-20 22:30:14] INFO     [driverUntil.py:48] 自动下载ChromeDriver...
+[2025-05-20 22:30:22] ERROR    [driverUntil.py:102] 浏览器启动失败: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[2025-05-20 22:31:17] INFO     [driverUntil.py:43] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-20 22:31:37] INFO     [driverUntil.py:100] 成功启动 chrome 浏览器
+[2025-05-20 22:31:37] INFO     [test_script.py:35] 打开url
+[2025-05-20 22:31:37] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-20 22:31:56] INFO     [test_script.py:44] login
+[2025-05-20 22:32:06] INFO     [login.py:13] 点击管理
+[2025-05-20 22:32:08] INFO     [login.py:16] login account and passwd
+[2025-05-20 22:32:09] INFO     [test_script.py:48] 登录完成
+[2025-05-20 22:32:09] INFO     [publish.py:13] 点击文章
+[2025-05-20 22:32:13] INFO     [publish.py:15] 点击写文章
+[2025-05-20 22:32:18] INFO     [publish.py:17] 写标题
+[2025-05-20 22:32:18] INFO     [publish.py:20] 写内容
+[2025-05-20 22:32:18] INFO     [publish.py:26] 发布
+[2025-05-20 22:32:18] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-20 22:32:18] INFO     [test_script.py:52] 文章发布完成
+[2025-05-20 22:32:21] INFO     [test_script.py:35] 打开url
+[2025-05-20 22:32:21] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-20 22:32:43] INFO     [driverUntil.py:112] 浏览器已成功关闭
+[2025-05-20 22:52:04] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-20 22:52:21] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-20 22:52:21] INFO     [test_script.py:35] 打开url
+[2025-05-20 22:52:21] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-20 22:52:26] INFO     [test_script.py:44] login
+[2025-05-20 22:52:37] INFO     [login.py:13] 点击管理
+[2025-05-20 22:52:39] INFO     [login.py:16] login account and passwd
+[2025-05-20 22:52:40] INFO     [test_script.py:48] 登录完成
+[2025-05-20 22:52:40] INFO     [publish.py:13] 点击文章
+[2025-05-20 22:52:44] INFO     [publish.py:15] 点击写文章
+[2025-05-20 22:52:46] INFO     [publish.py:17] 写标题
+[2025-05-20 22:52:46] INFO     [publish.py:20] 写内容
+[2025-05-20 22:52:46] INFO     [publish.py:26] 发布
+[2025-05-20 22:52:46] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-20 22:52:47] INFO     [test_script.py:52] 文章发布完成
+[2025-05-20 22:52:50] INFO     [test_script.py:35] 打开url
+[2025-05-20 22:52:50] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-20 22:53:06] ERROR    [test_script.py:60] 测试失败: HTTPConnectionPool(host='localhost', port=50708): Max retries exceeded with url: /session/5b354964def373bb3f482704dde9d8c3/window/maximize (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017348D03B80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2025-05-20 22:53:23] INFO     [test_script.py:35] 打开url
+[2025-05-20 22:53:23] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-20 22:53:54] INFO     [driverUntil.py:114] 浏览器已成功关闭
