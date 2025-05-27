@@ -1,0 +1,22 @@
+[32mINFO    [0m mayday_auto:conftest.py:33 
+================================================================================
+[32mINFO    [0m mayday_auto:conftest.py:34 开始测试: test_process[setup0]
+[32mINFO    [0m mayday_auto:conftest.py:35 ================================================================================
+[32mINFO    [0m mayday_auto:test_mayday.py:43 截图将保存到: D:\MaydayAutoProject\screenshots\data_1
+[32mINFO    [0m mayday_auto:driverUntil.py:45 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[32mINFO    [0m mayday_auto:driverUntil.py:102 成功启动 chrome 浏览器
+[32mINFO    [0m mayday_auto:logger.py:55 🚀 开始测试: 文章发布测试[笔记1]
+[32mINFO    [0m mayday_auto:logger.py:56 ------------------------------------------------------------
+[35mDEBUG   [0m mayday_auto:test_mayday.py:74 测试数据详情: {'id': '1', 'topic': '笔记1', 'content': 'hello'}
+[32mINFO    [0m mayday_auto:login.py:13 点击管理
+[32mINFO    [0m mayday_auto:login.py:16 login account and passwd
+[32mINFO    [0m mayday_auto:test_mayday.py:113 登录步骤完成
+[32mINFO    [0m mayday_auto:publish.py:13 点击文章
+[32mINFO    [0m mayday_auto:publish.py:15 点击写文章
+[32mINFO    [0m mayday_auto:publish.py:17 写标题
+[32mINFO    [0m mayday_auto:publish.py:20 写内容
+[32mINFO    [0m mayday_auto:publish.py:26 发布
+[32mINFO    [0m mayday_auto:publish.py:28 返回文章浏览列表
+[32mINFO    [0m mayday_auto:test_mayday.py:120 文章发布步骤完成
+[32mINFO    [0m mayday_auto:logger.py:61 ✅ 测试结束: 文章发布测试[笔记1] - 状态: 通过
+[32mINFO    [0m mayday_auto:logger.py:62 ============================================================

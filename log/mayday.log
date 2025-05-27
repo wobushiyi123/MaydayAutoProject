@@ -66,3 +66,507 @@ ZeroDivisionError: division by zero
 [2025-05-20 22:53:23] INFO     [test_script.py:35] 打开url
 [2025-05-20 22:53:23] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
 [2025-05-20 22:53:54] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 16:10:00] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:10:29] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:10:29] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:10:29] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 16:10:57] INFO     [test_script.py:44] login
+[2025-05-21 16:11:08] INFO     [login.py:13] 点击管理
+[2025-05-21 16:11:45] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:12:12] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:12:12] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:12:12] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 16:12:44] ERROR    [test_script.py:59] 测试失败: Message: timeout: Timed out receiving message from renderer: 24.735
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8F9A]
+	(No symbol) [0x00007FF6D9BA64EC]
+	(No symbol) [0x00007FF6D9BA61DA]
+	(No symbol) [0x00007FF6D9BA3E8A]
+	(No symbol) [0x00007FF6D9BA483F]
+	(No symbol) [0x00007FF6D9BB33AE]
+	(No symbol) [0x00007FF6D9BC97E1]
+	(No symbol) [0x00007FF6D9BD091A]
+	(No symbol) [0x00007FF6D9BA4FAD]
+	(No symbol) [0x00007FF6D9BC94D0]
+	(No symbol) [0x00007FF6D9C5F732]
+	(No symbol) [0x00007FF6D9C37153]
+	(No symbol) [0x00007FF6D9C00421]
+	(No symbol) [0x00007FF6D9C011B3]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	GetHandleVerifier [0x00007FF6D9DF52A4+109332]
+	GetHandleVerifier [0x00007FF6D9DF5452+109762]
+	GetHandleVerifier [0x00007FF6D9DDBA69+4825]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 16:13:57] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:13:57] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 16:14:00] INFO     [test_script.py:44] login
+[2025-05-21 16:14:11] INFO     [login.py:13] 点击管理
+[2025-05-21 16:14:14] INFO     [login.py:16] login account and passwd
+[2025-05-21 16:14:15] INFO     [test_script.py:48] 登录完成
+[2025-05-21 16:14:15] INFO     [publish.py:13] 点击文章
+[2025-05-21 16:14:19] INFO     [publish.py:15] 点击写文章
+[2025-05-21 16:14:25] INFO     [publish.py:17] 写标题
+[2025-05-21 16:14:25] INFO     [publish.py:20] 写内容
+[2025-05-21 16:14:25] INFO     [publish.py:26] 发布
+[2025-05-21 16:14:25] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 16:14:25] INFO     [test_script.py:52] 文章发布完成
+[2025-05-21 16:14:36] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:14:36] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 16:14:38] INFO     [test_script.py:44] login
+[2025-05-21 16:14:48] INFO     [login.py:13] 点击管理
+[2025-05-21 16:14:59] INFO     [login.py:19] 点击管理
+[2025-05-21 16:15:10] ERROR    [test_script.py:59] 测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8F9A]
+	(No symbol) [0x00007FF6D9C0F4C6]
+	(No symbol) [0x00007FF6D9C0F77C]
+	(No symbol) [0x00007FF6D9C62577]
+	(No symbol) [0x00007FF6D9C373BF]
+	(No symbol) [0x00007FF6D9C5F39C]
+	(No symbol) [0x00007FF6D9C37153]
+	(No symbol) [0x00007FF6D9C00421]
+	(No symbol) [0x00007FF6D9C011B3]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	GetHandleVerifier [0x00007FF6D9DF52A4+109332]
+	GetHandleVerifier [0x00007FF6D9DF5452+109762]
+	GetHandleVerifier [0x00007FF6D9DDBA69+4825]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 16:15:14] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 16:16:44] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:16:50] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:16:50] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:16:50] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 16:16:56] INFO     [test_script.py:44] login
+[2025-05-21 16:17:06] INFO     [login.py:13] 点击管理
+[2025-05-21 16:17:10] INFO     [login.py:16] login account and passwd
+[2025-05-21 16:17:11] INFO     [test_script.py:48] 登录完成
+[2025-05-21 16:17:11] INFO     [publish.py:13] 点击文章
+[2025-05-21 16:17:15] INFO     [publish.py:15] 点击写文章
+[2025-05-21 16:17:19] INFO     [publish.py:17] 写标题
+[2025-05-21 16:17:20] INFO     [publish.py:20] 写内容
+[2025-05-21 16:17:20] INFO     [publish.py:26] 发布
+[2025-05-21 16:17:20] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 16:17:21] INFO     [test_script.py:52] 文章发布完成
+[2025-05-21 16:17:21] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:17:21] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 16:17:24] INFO     [test_script.py:44] login
+[2025-05-21 16:17:35] INFO     [login.py:13] 点击管理
+[2025-05-21 16:17:46] INFO     [login.py:19] 点击管理
+[2025-05-21 16:17:56] ERROR    [test_script.py:59] 测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8F9A]
+	(No symbol) [0x00007FF6D9C0F4C6]
+	(No symbol) [0x00007FF6D9C0F77C]
+	(No symbol) [0x00007FF6D9C62577]
+	(No symbol) [0x00007FF6D9C373BF]
+	(No symbol) [0x00007FF6D9C5F39C]
+	(No symbol) [0x00007FF6D9C37153]
+	(No symbol) [0x00007FF6D9C00421]
+	(No symbol) [0x00007FF6D9C011B3]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	GetHandleVerifier [0x00007FF6D9DF52A4+109332]
+	GetHandleVerifier [0x00007FF6D9DF5452+109762]
+	GetHandleVerifier [0x00007FF6D9DDBA69+4825]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 16:17:57] INFO     [test_script.py:35] 打开url
+[2025-05-21 16:17:57] INFO     [test_script.py:36] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 16:17:58] INFO     [test_script.py:44] login
+[2025-05-21 16:18:27] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 16:52:53] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:53:10] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:53:10] INFO     [test_script.py:34] 打开url
+[2025-05-21 16:53:10] INFO     [test_script.py:35] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 16:53:15] INFO     [test_script.py:43] login
+[2025-05-21 16:53:26] INFO     [login.py:13] 点击管理
+[2025-05-21 16:53:28] INFO     [login.py:16] login account and passwd
+[2025-05-21 16:53:29] INFO     [test_script.py:47] 登录完成
+[2025-05-21 16:53:29] INFO     [publish.py:13] 点击文章
+[2025-05-21 16:53:32] INFO     [publish.py:15] 点击写文章
+[2025-05-21 16:53:34] INFO     [publish.py:17] 写标题
+[2025-05-21 16:53:34] INFO     [publish.py:20] 写内容
+[2025-05-21 16:53:34] INFO     [publish.py:26] 发布
+[2025-05-21 16:53:34] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 16:53:34] INFO     [test_script.py:51] 文章发布完成
+[2025-05-21 16:53:37] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 16:53:37] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:53:42] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:53:42] INFO     [test_script.py:34] 打开url
+[2025-05-21 16:53:42] INFO     [test_script.py:35] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 16:53:47] INFO     [test_script.py:43] login
+[2025-05-21 16:53:58] INFO     [login.py:13] 点击管理
+[2025-05-21 16:54:01] INFO     [login.py:16] login account and passwd
+[2025-05-21 16:54:01] INFO     [test_script.py:47] 登录完成
+[2025-05-21 16:54:01] INFO     [publish.py:13] 点击文章
+[2025-05-21 16:54:04] INFO     [publish.py:15] 点击写文章
+[2025-05-21 16:54:06] INFO     [publish.py:17] 写标题
+[2025-05-21 16:54:06] INFO     [publish.py:20] 写内容
+[2025-05-21 16:54:06] INFO     [publish.py:26] 发布
+[2025-05-21 16:54:06] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 16:54:06] INFO     [test_script.py:51] 文章发布完成
+[2025-05-21 16:54:09] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 16:54:09] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 16:54:16] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 16:54:16] INFO     [test_script.py:34] 打开url
+[2025-05-21 16:54:16] INFO     [test_script.py:35] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 16:54:21] INFO     [test_script.py:43] login
+[2025-05-21 16:54:32] INFO     [login.py:13] 点击管理
+[2025-05-21 16:54:34] INFO     [login.py:16] login account and passwd
+[2025-05-21 16:54:34] INFO     [test_script.py:47] 登录完成
+[2025-05-21 16:54:34] INFO     [publish.py:13] 点击文章
+[2025-05-21 16:54:37] INFO     [publish.py:15] 点击写文章
+[2025-05-21 16:54:39] INFO     [publish.py:17] 写标题
+[2025-05-21 16:54:39] INFO     [publish.py:20] 写内容
+[2025-05-21 16:54:39] INFO     [publish.py:26] 发布
+[2025-05-21 16:54:39] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 16:54:39] INFO     [test_script.py:51] 文章发布完成
+[2025-05-21 16:54:42] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 17:23:40] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:24:06] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:24:06] INFO     [test_script.py:48] 打开url
+[2025-05-21 17:24:06] INFO     [test_script.py:49] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 17:24:11] INFO     [test_script.py:57] login
+[2025-05-21 17:24:22] INFO     [login.py:13] 点击管理
+[2025-05-21 17:24:25] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:24:25] INFO     [test_script.py:61] 登录完成
+[2025-05-21 17:24:25] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:24:28] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:24:30] INFO     [publish.py:17] 写标题
+[2025-05-21 17:24:30] INFO     [publish.py:20] 写内容
+[2025-05-21 17:24:31] INFO     [publish.py:26] 发布
+[2025-05-21 17:24:31] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:24:31] INFO     [test_script.py:65] 文章发布完成
+[2025-05-21 17:28:16] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:29:47] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:29:47] INFO     [test_script.py:48] 打开url
+[2025-05-21 17:29:47] INFO     [test_script.py:49] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 17:29:59] INFO     [test_script.py:57] login
+[2025-05-21 17:30:09] INFO     [login.py:13] 点击管理
+[2025-05-21 17:30:12] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:30:17] INFO     [test_script.py:61] 登录完成
+[2025-05-21 17:30:17] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:30:25] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:30:29] INFO     [publish.py:17] 写标题
+[2025-05-21 17:30:29] INFO     [publish.py:20] 写内容
+[2025-05-21 17:30:30] INFO     [publish.py:26] 发布
+[2025-05-21 17:30:30] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:30:30] INFO     [test_script.py:65] 文章发布完成
+[2025-05-21 17:31:42] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:31:57] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:31:57] INFO     [test_script.py:48] 打开url
+[2025-05-21 17:31:57] INFO     [test_script.py:49] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 17:32:27] ERROR    [test_script.py:72] 测试失败: Message: timeout: Timed out receiving message from renderer: 21.387
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8F9A]
+	(No symbol) [0x00007FF6D9BA64EC]
+	(No symbol) [0x00007FF6D9BA61DA]
+	(No symbol) [0x00007FF6D9BA3E8A]
+	(No symbol) [0x00007FF6D9BA483F]
+	(No symbol) [0x00007FF6D9BB33AE]
+	(No symbol) [0x00007FF6D9BC97E1]
+	(No symbol) [0x00007FF6D9BD091A]
+	(No symbol) [0x00007FF6D9BA4FAD]
+	(No symbol) [0x00007FF6D9BC94D0]
+	(No symbol) [0x00007FF6D9C5F732]
+	(No symbol) [0x00007FF6D9C37153]
+	(No symbol) [0x00007FF6D9C00421]
+	(No symbol) [0x00007FF6D9C011B3]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	GetHandleVerifier [0x00007FF6D9DF52A4+109332]
+	GetHandleVerifier [0x00007FF6D9DF5452+109762]
+	GetHandleVerifier [0x00007FF6D9DDBA69+4825]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 17:35:56] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:36:06] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:36:07] INFO     [test_script.py:63] 打开url
+[2025-05-21 17:36:07] INFO     [test_script.py:64] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 17:36:21] INFO     [test_script.py:72] login
+[2025-05-21 17:36:32] INFO     [login.py:13] 点击管理
+[2025-05-21 17:36:34] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:36:35] INFO     [test_script.py:76] 登录完成
+[2025-05-21 17:36:35] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:36:38] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:36:41] INFO     [publish.py:17] 写标题
+[2025-05-21 17:36:41] INFO     [publish.py:20] 写内容
+[2025-05-21 17:36:41] INFO     [publish.py:26] 发布
+[2025-05-21 17:36:41] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:36:42] INFO     [test_script.py:80] 文章发布完成
+[2025-05-21 17:36:45] INFO     [test_script.py:63] 打开url
+[2025-05-21 17:36:45] INFO     [test_script.py:64] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 17:36:45] ERROR    [test_script.py:87] 测试失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.93)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8F9A]
+	(No symbol) [0x00007FF6D9BA4E35]
+	(No symbol) [0x00007FF6D9BC9DB4]
+	(No symbol) [0x00007FF6D9C3EE75]
+	(No symbol) [0x00007FF6D9C5ECC2]
+	(No symbol) [0x00007FF6D9C37153]
+	(No symbol) [0x00007FF6D9C00421]
+	(No symbol) [0x00007FF6D9C011B3]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	GetHandleVerifier [0x00007FF6D9DF52A4+109332]
+	GetHandleVerifier [0x00007FF6D9DF5452+109762]
+	GetHandleVerifier [0x00007FF6D9DDBA69+4825]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 17:36:46] INFO     [test_script.py:63] 打开url
+[2025-05-21 17:36:46] INFO     [test_script.py:64] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 17:36:46] ERROR    [test_script.py:87] 测试失败: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D9DECF55+75717]
+	GetHandleVerifier [0x00007FF6D9DECFB0+75808]
+	(No symbol) [0x00007FF6D9BB8DCC]
+	(No symbol) [0x00007FF6D9BFF54F]
+	(No symbol) [0x00007FF6D9C37242]
+	(No symbol) [0x00007FF6D9C31C63]
+	(No symbol) [0x00007FF6D9C30D29]
+	(No symbol) [0x00007FF6D9B85A55]
+	GetHandleVerifier [0x00007FF6DA0ED72D+3223453]
+	GetHandleVerifier [0x00007FF6DA0E7CD2+3200322]
+	GetHandleVerifier [0x00007FF6DA105B03+3322739]
+	GetHandleVerifier [0x00007FF6D9E06A2A+180890]
+	GetHandleVerifier [0x00007FF6D9E0E12F+211359]
+	(No symbol) [0x00007FF6D9B84AC8]
+	GetHandleVerifier [0x00007FF6DA1D6FD8+4180040]
+	BaseThreadInitThunk [0x00007FF9F3C47374+20]
+	RtlUserThreadStart [0x00007FF9F57BCC91+33]
+
+[2025-05-21 17:55:05] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:55:13] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:55:13] INFO     [test_script.py:56] 打开url
+[2025-05-21 17:55:13] INFO     [test_script.py:57] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 17:55:18] INFO     [test_script.py:60] login
+[2025-05-21 17:55:28] INFO     [login.py:13] 点击管理
+[2025-05-21 17:55:33] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:55:33] INFO     [test_script.py:64] 登录完成
+[2025-05-21 17:55:33] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:55:36] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:55:39] INFO     [publish.py:17] 写标题
+[2025-05-21 17:55:39] INFO     [publish.py:20] 写内容
+[2025-05-21 17:55:39] INFO     [publish.py:26] 发布
+[2025-05-21 17:55:39] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:55:39] INFO     [test_script.py:68] 文章发布完成
+[2025-05-21 17:55:46] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 17:55:47] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:55:52] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:55:52] INFO     [test_script.py:56] 打开url
+[2025-05-21 17:55:52] INFO     [test_script.py:57] 开始测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 17:55:57] INFO     [test_script.py:60] login
+[2025-05-21 17:56:07] INFO     [login.py:13] 点击管理
+[2025-05-21 17:56:09] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:56:10] INFO     [test_script.py:64] 登录完成
+[2025-05-21 17:56:10] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:56:12] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:56:14] INFO     [publish.py:17] 写标题
+[2025-05-21 17:56:14] INFO     [publish.py:20] 写内容
+[2025-05-21 17:56:14] INFO     [publish.py:26] 发布
+[2025-05-21 17:56:14] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:56:14] INFO     [test_script.py:68] 文章发布完成
+[2025-05-21 17:56:17] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 17:56:18] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 17:56:20] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 17:56:20] INFO     [test_script.py:56] 打开url
+[2025-05-21 17:56:20] INFO     [test_script.py:57] 开始测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 17:56:25] INFO     [test_script.py:60] login
+[2025-05-21 17:56:35] INFO     [login.py:13] 点击管理
+[2025-05-21 17:56:37] INFO     [login.py:16] login account and passwd
+[2025-05-21 17:56:37] INFO     [test_script.py:64] 登录完成
+[2025-05-21 17:56:37] INFO     [publish.py:13] 点击文章
+[2025-05-21 17:56:40] INFO     [publish.py:15] 点击写文章
+[2025-05-21 17:56:41] INFO     [publish.py:17] 写标题
+[2025-05-21 17:56:42] INFO     [publish.py:20] 写内容
+[2025-05-21 17:56:42] INFO     [publish.py:26] 发布
+[2025-05-21 17:56:42] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 17:56:42] INFO     [test_script.py:68] 文章发布完成
+[2025-05-21 17:56:45] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 18:34:03] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 18:34:14] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 18:34:14] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 18:34:30] INFO     [login.py:13] 点击管理
+[2025-05-21 18:34:32] INFO     [login.py:16] login account and passwd
+[2025-05-21 18:34:33] INFO     [publish.py:13] 点击文章
+[2025-05-21 18:34:36] INFO     [publish.py:15] 点击写文章
+[2025-05-21 18:34:38] INFO     [publish.py:17] 写标题
+[2025-05-21 18:34:38] INFO     [publish.py:20] 写内容
+[2025-05-21 18:34:38] INFO     [publish.py:26] 发布
+[2025-05-21 18:34:39] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 18:34:41] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 18:34:42] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 18:34:45] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 18:34:45] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 18:35:01] INFO     [login.py:13] 点击管理
+[2025-05-21 18:35:03] INFO     [login.py:16] login account and passwd
+[2025-05-21 18:35:03] INFO     [publish.py:13] 点击文章
+[2025-05-21 18:35:06] INFO     [publish.py:15] 点击写文章
+[2025-05-21 18:35:07] INFO     [publish.py:17] 写标题
+[2025-05-21 18:35:08] INFO     [publish.py:20] 写内容
+[2025-05-21 18:35:08] INFO     [publish.py:26] 发布
+[2025-05-21 18:35:08] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 18:35:11] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 18:35:12] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 18:35:17] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 18:35:17] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-21 18:35:32] INFO     [login.py:13] 点击管理
+[2025-05-21 18:35:34] INFO     [login.py:16] login account and passwd
+[2025-05-21 18:35:35] INFO     [publish.py:13] 点击文章
+[2025-05-21 18:35:37] INFO     [publish.py:15] 点击写文章
+[2025-05-21 18:35:38] INFO     [publish.py:17] 写标题
+[2025-05-21 18:35:39] INFO     [publish.py:20] 写内容
+[2025-05-21 18:35:39] INFO     [publish.py:26] 发布
+[2025-05-21 18:35:39] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 18:35:42] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 18:36:26] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 18:36:31] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 18:36:31] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-21 18:36:47] INFO     [login.py:13] 点击管理
+[2025-05-21 18:36:49] INFO     [login.py:16] login account and passwd
+[2025-05-21 18:36:50] INFO     [publish.py:13] 点击文章
+[2025-05-21 18:36:52] INFO     [publish.py:15] 点击写文章
+[2025-05-21 18:36:54] INFO     [publish.py:17] 写标题
+[2025-05-21 18:36:54] INFO     [publish.py:20] 写内容
+[2025-05-21 18:36:54] INFO     [publish.py:26] 发布
+[2025-05-21 18:36:55] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-21 18:36:57] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-21 18:36:58] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-21 18:37:01] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-21 18:37:01] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-21 18:37:17] INFO     [login.py:13] 点击管理
+[2025-05-22 11:06:34] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:07:22] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:07:22] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-22 11:07:48] INFO     [login.py:13] 点击管理
+[2025-05-22 11:07:52] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:08:08] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:08:08] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:08:10] INFO     [publish.py:17] 写标题
+[2025-05-22 11:08:25] INFO     [publish.py:20] 写内容
+[2025-05-22 11:08:25] INFO     [publish.py:26] 发布
+[2025-05-22 11:08:26] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:08:48] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:08:54] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:09:04] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:09:04] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-22 11:09:20] INFO     [login.py:13] 点击管理
+[2025-05-22 11:09:22] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:09:51] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:09:54] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:09:56] INFO     [publish.py:17] 写标题
+[2025-05-22 11:10:05] INFO     [publish.py:20] 写内容
+[2025-05-22 11:10:05] INFO     [publish.py:26] 发布
+[2025-05-22 11:10:05] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:10:08] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:10:08] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:10:14] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:10:14] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-22 11:10:30] INFO     [login.py:13] 点击管理
+[2025-05-22 11:10:32] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:10:32] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:10:35] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:10:37] INFO     [publish.py:17] 写标题
+[2025-05-22 11:10:37] INFO     [publish.py:20] 写内容
+[2025-05-22 11:10:37] INFO     [publish.py:26] 发布
+[2025-05-22 11:10:37] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:10:40] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:18:08] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:18:26] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:18:26] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-22 11:18:43] INFO     [login.py:13] 点击管理
+[2025-05-22 11:18:48] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:18:50] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:18:54] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:18:58] INFO     [publish.py:17] 写标题
+[2025-05-22 11:18:59] INFO     [publish.py:20] 写内容
+[2025-05-22 11:19:02] INFO     [publish.py:26] 发布
+[2025-05-22 11:19:02] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:19:10] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:19:10] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:19:20] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:19:20] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 2, 'topic': '笔记2', 'content': 'hello'}
+[2025-05-22 11:19:39] INFO     [login.py:13] 点击管理
+[2025-05-22 11:19:44] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:19:45] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:19:50] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:19:52] INFO     [publish.py:17] 写标题
+[2025-05-22 11:19:54] INFO     [publish.py:20] 写内容
+[2025-05-22 11:19:56] INFO     [publish.py:26] 发布
+[2025-05-22 11:19:56] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:20:03] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:20:03] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:20:12] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:20:12] INFO     [test_script.py:77] 执行测试用例，数据: {'id': 3, 'topic': '笔记3', 'content': 'hello'}
+[2025-05-22 11:20:32] INFO     [login.py:13] 点击管理
+[2025-05-22 11:20:36] INFO     [login.py:16] login account and passwd
+[2025-05-22 11:20:37] INFO     [publish.py:13] 点击文章
+[2025-05-22 11:20:40] INFO     [publish.py:15] 点击写文章
+[2025-05-22 11:20:44] INFO     [publish.py:17] 写标题
+[2025-05-22 11:20:45] INFO     [publish.py:20] 写内容
+[2025-05-22 11:20:46] INFO     [publish.py:26] 发布
+[2025-05-22 11:20:48] INFO     [publish.py:28] 返回文章浏览列表
+[2025-05-22 11:20:56] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:22:22] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:23:02] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:23:02] INFO     [test_script.py:79] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-22 11:25:25] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:25:34] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:25:34] INFO     [test_script.py:79] 开始测试用例，数据: {'id': 1, 'topic': '笔记1', 'content': 'hello'}
+[2025-05-22 11:26:02] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:28:40] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:29:01] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:29:05] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:29:05] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:29:09] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:29:12] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:29:12] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:29:15] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:29:18] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:34:15] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:34:41] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:34:48] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:34:48] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:34:52] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:34:56] INFO     [driverUntil.py:114] 浏览器已成功关闭
+[2025-05-22 11:34:56] INFO     [driverUntil.py:45] 使用本地Chrome驱动: D:\MaydayAutoProject\driverFile\chromedriver.exe
+[2025-05-22 11:35:03] INFO     [driverUntil.py:102] 成功启动 chrome 浏览器
+[2025-05-22 11:35:08] INFO     [driverUntil.py:114] 浏览器已成功关闭

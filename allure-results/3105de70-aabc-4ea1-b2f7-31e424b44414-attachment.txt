@@ -1,0 +1,8 @@
+[32mINFO    [0m mayday_auto:conftest.py:33 
+================================================================================
+[32mINFO    [0m mayday_auto:conftest.py:34 开始测试: test_process[setup1]
+[32mINFO    [0m mayday_auto:conftest.py:35 ================================================================================
+[32mINFO    [0m mayday_auto:test_mayday.py:43 截图将保存到: D:\MaydayAutoProject\screenshots\data_2
+[32mINFO    [0m mayday_auto:logger.py:55 🚀 开始测试: 文章发布测试[笔记2]
+[32mINFO    [0m mayday_auto:logger.py:56 ------------------------------------------------------------
+[35mDEBUG   [0m mayday_auto:test_mayday.py:74 测试数据详情: {'id': '2', 'topic': '笔记2', 'content': 'hello'}

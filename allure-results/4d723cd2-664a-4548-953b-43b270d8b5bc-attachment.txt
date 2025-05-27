@@ -1,0 +1,9 @@
+[32mINFO    [0m mayday_auto:conftest.py:33 
+================================================================================
+[32mINFO    [0m mayday_auto:conftest.py:34 开始测试: test_process[data1]
+[32mINFO    [0m mayday_auto:conftest.py:35 ================================================================================
+[32mINFO    [0m mayday_auto:test_script.py:61 截图将保存到: D:\MaydayAutoProject\screenshots\default
+[32mINFO    [0m mayday_auto:logger.py:55 🚀 开始测试: 文章发布测试
+[32mINFO    [0m mayday_auto:logger.py:56 ------------------------------------------------------------
+[35mDEBUG   [0m mayday_auto:test_script.py:102 测试数据详情: {'id': '2', 'topic': '笔记2', 'content': 'hello'}
+[33mWARNING [0m mayday_auto:test_script.py:115 SSL错误发生，尝试忽略证书继续...
